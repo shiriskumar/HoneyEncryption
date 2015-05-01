@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+html {
+  background: #f2f2f8;
+}
+body {
+  padding: 10%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+::selection {
+  background: #ccc;
+}
+::-moz-selection {
+  background: #ccc;
+}
+h1 {
+  text-align: center;
+  font: 36px 'Open Sans Bold';
+}
+p {
+  margin: 25px 0 0 0;
+}
+p:first-of-type {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+a {
+  color: #0a0a0b;
+  text-decoration: none;
+  border-bottom: 3px solid #0a0a0b;
+  -webkit-transition: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: 0.15s ease;
+}
+a:hover,
+a:focus {
+  opacity: 0.5;
+}
+article,
+footer {
+  display: block;
+  margin: 0 auto !important;
+  padding: 25px;
+  max-width: 900px;
+  width: 100%;
+}
+article {
+  margin: 25px 0 50px 0;
+}
+footer {
+  text-align: center;
+  font: 75% 'Open Sans Bold';
+}
+#gravatar {
+  display: block !important;
+  border-radius: 100%;
+  margin: 0 auto;
+}

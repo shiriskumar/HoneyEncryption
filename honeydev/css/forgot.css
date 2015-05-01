@@ -1,0 +1,71 @@
+/* Crete Round */
+@import url("http://fonts.googleapis.com/css?family=Crete+Round");
+
+/* Open Sans */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+/* styles */
+body {
+  background: #2e2929;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Crete Round', georgia, serif;
+  color: #524d4d;
+  text-shadow: 0 2px 2px #111;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-weight: normal;
+  font-family: 'Crete Round', georgia, serif;
+  color: #524d4d;
+  text-shadow: 0 2px 2px #111;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+input {
+  font: 19px "Open Sans", Helvetica, Arial, Sans-serif;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px #000;
+}
+
+.page {
+  width: 500px;
+  margin: 50px auto 0;
+}
+
+form input,
+form input:focus {
+  padding: 10px 13px;
+  border: 0;
+  outline: 0;
+}
+
+form input[type="email"] {
+  margin-right: 15px;
+  width: 300px;
+  color: #a09f9f;
+}
+
+form input[type="submit"] {
+  padding: 10px 15px;
+  color: #c0d6db;
+  background: #427b89;
+  text-shadow: 0 2px 2px #333;
+  box-shadow: inset 0 0 0 transparent;
+  background: #508f9f;
+  background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
+  transition: all .3s ease-in-out;
+}
+
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+  box-shadow: inset 0 0 50px rgba(255,255,255, 0.3),
+                    0 0 10px rgba(255,255,255, 0.1);
+  color: white;
+  margin-left: 10px;
+}

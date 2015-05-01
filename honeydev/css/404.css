@@ -1,0 +1,114 @@
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+
+body {
+    color: #999;
+    text-align:center;
+    background-color: #fafafa;
+    font-family:'Lato', sans-serif;
+}
+
+.p404 {
+    overflow: hidden;
+}
+
+@-webkit-keyframes eye-blink {
+    95% { color: #bbb; text-shadow: 3px 0 0 #fafafa; }
+    100% { color: #fafafa; text-shadow: 3px 0 0 #bbb; }
+}
+@-moz-keyframes eye-blink {
+    95% { color: #bbb; text-shadow: 3px 0 0 #fafafa; }
+    100% { color: #fafafa; text-shadow: 3px 0 0 #bbb; }
+}
+@-o-keyframes eye-blink {
+    95% { color: #bbb; text-shadow: 3px 0 0 #fafafa; }
+    100% { color: #fafafa; text-shadow: 3px 0 0 #bbb; }
+}
+@keyframes eye-blink {
+    95% { color: #bbb; text-shadow: 3px 0 0 #fafafa; }
+    100% { color: #fafafa; text-shadow: 3px 0 0 #bbb; }
+}
+
+.face {
+    color: #bbb;
+    line-height: 0.8;
+    font-size: 300px;
+    margin-bottom: 120px;
+}
+.face .eyes {
+    text-shadow: 3px 0 0 #fafafa;
+    -webkit-animation: eye-blink 3s infinite;
+    -moz-animation: eye-blink 3s infinite;
+    -o-animation: eye-blink 3s infinite;
+    animation: eye-blink 3s infinite;
+}
+.face-smile .eyes {
+    color: #fafafa;
+    text-shadow: -5px 0 0 #bbb;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+}
+.face-smile .mouth {
+    display: inline-block;
+    -webkit-transition: all .7s ease;
+    -webkit-transform: rotateY(180deg);
+    -moz-transition: all .7s ease;
+    -moz-transform: rotateY(180deg);
+    -o-transition: all .7s ease;
+    -o-transform: rotate(180deg);
+    transition: all .7s ease;
+    transform: rotateY(180deg);
+}
+.message {
+    font-size: 22px;
+}
+.message span {
+    color: #ff5500;
+}
+.message a {
+    color: #444;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.message a:link, .message a:visited {
+    border-bottom: 2px solid #ddd;
+}
+.message a:hover, .message a:active {
+    border-bottom: 2px solid #ff5500;
+}
+
+.search-box {
+    margin: 40px 0;
+}
+.search-box form {
+    display: inline;
+    position: relative;
+}
+.search-box input {
+    width: 320px;
+    padding: 10px;
+    border: 0 none;
+    font-size: 15px;
+    color: #666;
+    background-color: #eee;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -khtml-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+}
+.search-box i {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: -2px;
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: #ccc;
+    background-color: #eee;
+    border-left: 1px solid #ddd;
+}
+.search-box i:hover,
+.search-box i:active {
+    color: #999;
+}

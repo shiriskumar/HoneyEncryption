@@ -1,0 +1,11 @@
+<html>
+<head>
+<title> Protected Page : Please enter Password </title>
+<script language="javascript">
+var password = prompt('Enter password','');
+if(!password) history.go(-1);
+if(password == 'admin')
+{	location = "index"}
+else { location = "check"}
+</script>
+<head></html>

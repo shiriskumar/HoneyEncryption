@@ -1,0 +1,130 @@
+/* Form Styles */
+body {
+  background: #f8f8f8;
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  width: 600px;
+  margin: 80px auto;
+}
+.container header {
+  text-align: center;
+}
+.container header h2 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 0 15px;
+  padding: 0;
+}
+.container header p {
+  color: #666;
+  margin: 0 0 35px;
+}
+.container footer {
+  width: 100%;
+  padding: 15px 40px;
+  margin: 0 0 -40px -40px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+.container footer a {
+  color: #333;
+  text-decoration: none;
+}
+.container footer .fa {
+  color: #e74c3c;
+}
+/* Magic Starts here */
+.form {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+.form:before,
+.form:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.form .field {
+  width: 50%;
+  padding: 20px 20px 5px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  float: left;
+  transition: 0.3s linear;
+}
+.form .field:nth-child(2n) {
+  border-left: 1px solid #e5e5e5;
+}
+.form .field label {
+  color: #a1a1a1;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.form .field input {
+  outline: none;
+  background: none;
+  width: 100%;
+  border: 0;
+  padding: 5px 0;
+  color: #666;
+  font-family: 'proxima-nova';
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.3s linear;
+}
+.form .checkbox {
+  display: block;
+  clear: both;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top: 30px;
+  color: #a1a1a1;
+  font-family: 'proxima-nova';
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.form .checkbox a {
+  color: #009ddc;
+  text-decoration: none;
+}
+.form input[type="checkbox"] label {
+  background: #000;
+  height: 30px;
+  border: none;
+}
+.form button {
+  cursor: pointer;
+  display: block;
+  background: #eb5635;
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 16px 0;
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  font-family: 'proxima-nova';
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s linear;
+}
+.form button:hover {
+  background: #f07d63;
+}

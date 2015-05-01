@@ -1,0 +1,11 @@
+#AuthName "Restricted Area" 
+#AuthType Basic 
+#AuthUserFile /dashboard/.htpasswd 
+#AuthGroupFile /dev/null 
+#require valid-user
+
+#DirectoryIndex check.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

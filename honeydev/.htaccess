@@ -1,0 +1,7 @@
+ErrorDocument 404 /honeydev/404.php
+
+DirectoryIndex login.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
