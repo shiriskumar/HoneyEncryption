@@ -1,3 +1,5 @@
+![HoneyEncryption](Resources/bee.gif)
+
 #Honey Encryption
 
 ###Introduction:
