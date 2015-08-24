@@ -136,7 +136,7 @@ mail.log = C:\wamp\logs\mail_log.txt
 extension=php_openssl.dll
 ```
 
-* You can check where msmtp is installed by rinning following command, in Linux:
+* You can check where msmtp is installed by running following command, in Linux:
 
 ```
 which msmtp

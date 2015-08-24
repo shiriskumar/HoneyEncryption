@@ -15,7 +15,7 @@
 	a. Chaffing Method
 	b. Chaffing by Tweaking Module
 	c. Other user passwords as Honeywords
-	(Tough Nut Module is not included in this project)
+	d. Tough Nut Module  (Latest Version)
 	
 
 ###User Analytics:
@@ -32,6 +32,6 @@
 
 ###Features of Decoy Page:
 
-1. Welcome page is similar to Genuine USer's page, but the links won't work (except logout).
+1. Welcome page is similar to Genuine User's page, but the links won't work (except logout).
 2. Breacher's details (OS, Browser, IP) are recorded separately.
 3. URL of decoy page is socially engineered (looks very similar to original ones).

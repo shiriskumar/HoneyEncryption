@@ -220,12 +220,12 @@ if($count[0]==1){
 		print_r($temp_array);
 		
 		
-		//Module 4: Generate Nutshell Password
+		//Module 4: Generate Tough Nut Password
 		//---------------------------------------------------------
 		$nut_array = array(); //initialise an empty array
 		for($l=1; $l<=5; $l++)
 			{
-				$no3 = rand(5, 20);//decides the length of the nutshell password
+				$no3 = rand(5, 20);//decides the length of the Tough Nut password
 				$nut_ele = "";
 				$chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 				for($i=0;$i<$no3;$i++){
