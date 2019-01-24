@@ -1,17 +1,21 @@
 ![HoneyEncryption](Resources/bee.gif)
 
-#Honey Encryption
+# Honey Encryption
 
-###Introduction:
+### Introduction:
 
 This is an implementation of Honey Encryption. The term was tossed by `Ari Juels`(RSA Labs) & `Ronald L. Rivest`(MIT CSAIL) during the presentation of `The Password That Never Was` at Harvard's Center for Research on Computation and Society (CRCS)(2014).
 
 
-####Report:
+#### Report:
 [Latest major Password Breach Report [2011 - 2014]](http://goo.gl/xz2qNF) by Shiris Kumar
 
 
-###Modules:
+### Presentation:
+[https://www.slideshare.net/shiriskumar/honey-encryption](https://www.slideshare.net/shiriskumar/honey-encryption)
+
+
+### Modules:
 
 The project has 3 Modules to simulate different user environments:
 
@@ -21,7 +25,7 @@ The project has 3 Modules to simulate different user environments:
 
 
 
-###Requirements:
+### Requirements:
 
 1. Python - to create Honeywords
 2. WAMP/XAMPP - to create a localhost server
@@ -29,7 +33,7 @@ The project has 3 Modules to simulate different user environments:
 
 
 
-###Links:
+### Links:
 
 1. [Honeywords : Making Password-Cracking Detectable](http://www.arijuels.com/wp-content/uploads/2013/09/JR13.pdf)
 
